@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f731e05b-836b-4e96-b28c-a89dccf23095" name="Changes" comment="Added some more methods">
-      <change afterPath="$PROJECT_DIR$/src/structures/data/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structures/data/PKLinkedHashMap.java" afterDir="false" />
+    <list default="true" id="f731e05b-836b-4e96-b28c-a89dccf23095" name="Changes" comment="update workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/structures/data/GarbageCollector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,34 +46,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LRUCache.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MyArrayList.executor": "Run",
-    "Application.MyComparator.executor": "Run",
-    "Application.PKComparator.executor": "Run",
-    "Application.PKCopyOnWriteArrayList.executor": "Run",
-    "Application.PKHashMap.executor": "Run",
-    "Application.PKLinkedHashMap.executor": "Run",
-    "Application.PKLinkedList.executor": "Run",
-    "Application.PKStack.executor": "Run",
-    "Application.PKVector.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Priyadarshi_Kumar/IdeaProjects - Copy/JavaCollectionFramework/src/structures/data",
-    "onboarding.tips.debug.path": "C:/Users/Priyadarshi_Kumar/IdeaProjects/JavaCollectionFramework/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LRUCache.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyComparator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PKComparator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PKCopyOnWriteArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PKHashMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PKLinkedHashMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PKLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PKStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PKVector.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Priyadarshi_Kumar/IdeaProjects - Copy/JavaCollectionFramework/src/structures/data&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Priyadarshi_Kumar/IdeaProjects/JavaCollectionFramework/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Priyadarshi_Kumar\IdeaProjects - Copy\JavaCollectionFramework\src\structures\data" />
@@ -214,7 +213,31 @@
       <option name="project" value="LOCAL" />
       <updated>1757523276148</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added PKLinkedHashMap">
+      <option name="closed" value="true" />
+      <created>1757524227988</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1757524227988</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Implemented LRUCache using LinkedHashMap">
+      <option name="closed" value="true" />
+      <created>1757524267078</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1757524267078</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update workspace.xml">
+      <option name="closed" value="true" />
+      <created>1757524286496</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1757524286496</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,6 +292,9 @@
     <MESSAGE value="Uploaded .idea" />
     <MESSAGE value="Updated workspace files" />
     <MESSAGE value="Added some more methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some more methods" />
+    <MESSAGE value="Added PKLinkedHashMap" />
+    <MESSAGE value="Implemented LRUCache using LinkedHashMap" />
+    <MESSAGE value="update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml" />
   </component>
 </project>
