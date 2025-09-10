@@ -39,5 +39,15 @@ public class PKHashMap {
         boolean res = map.remove(31, "Nita");
         System.out.println("Removed ? : " + res);
         System.out.println(map);
+
+        HashMap<String, Integer> hashMap = new HashMap<>();
+        hashMap.put("Shubham", 91);
+        hashMap.put("Bob", 80);
+        hashMap.put("Akitoshi", 78);
+
+        Integer res1 = hashMap.getOrDefault("Mangal", 0);
+        System.out.println("res1: "+ res1); // 0 as Mangal is absent
+        hashMap.putIfAbsent("Shubham", 99); // will not replace, it will add if Shubham is absent
+        System.out.println(hashMap);
     }
 }
