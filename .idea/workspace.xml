@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f731e05b-836b-4e96-b28c-a89dccf23095" name="Changes" comment="update workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/structures/data/PKWeakHashMap.java" afterDir="false" />
+    <list default="true" id="f731e05b-836b-4e96-b28c-a89dccf23095" name="Changes" comment="Added PKWeakHashMap">
+      <change afterPath="$PROJECT_DIR$/src/structures/data/PKIdentityHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
     "Application.PKComparator.executor": "Run",
     "Application.PKCopyOnWriteArrayList.executor": "Run",
     "Application.PKHashMap.executor": "Run",
+    "Application.PKIdentityHashMap.executor": "Run",
     "Application.PKLinkedHashMap.executor": "Run",
     "Application.PKLinkedList.executor": "Run",
     "Application.PKStack.executor": "Run",
@@ -82,10 +83,23 @@
       <recent name="C:\Users\Priyadarshi_Kumar\IdeaProjects - Copy\JavaCollectionFramework\src\structures\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PKWeakHashMap (1)">
+  <component name="RunManager" selected="Application.PKIdentityHashMap">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JavaCollectionFramework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PKIdentityHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structures.data.PKIdentityHashMap" />
+      <module name="JavaCollectionFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structures.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,8 +132,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PKWeakHashMap (1)" />
+        <item itemvalue="Application.PKIdentityHashMap" />
         <item itemvalue="Application.PKWeakHashMap" />
+        <item itemvalue="Application.PKWeakHashMap (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -284,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757525696248</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added PKWeakHashMap">
+      <option name="closed" value="true" />
+      <created>1757527210841</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1757527210841</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,6 +365,7 @@
     <MESSAGE value="Added PKLinkedHashMap" />
     <MESSAGE value="Implemented LRUCache using LinkedHashMap" />
     <MESSAGE value="update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml" />
+    <MESSAGE value="Added PKWeakHashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added PKWeakHashMap" />
   </component>
 </project>
