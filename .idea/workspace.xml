@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f731e05b-836b-4e96-b28c-a89dccf23095" name="Changes" comment="update workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/structures/data/GarbageCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structures/data/PKWeakHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,40 +46,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.LRUCache.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyComparator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PKComparator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PKCopyOnWriteArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PKHashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PKLinkedHashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PKLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PKStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PKVector.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Priyadarshi_Kumar/IdeaProjects - Copy/JavaCollectionFramework/src/structures/data&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Priyadarshi_Kumar/IdeaProjects/JavaCollectionFramework/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GarbageCollector.executor": "Run",
+    "Application.LRUCache.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MyArrayList.executor": "Run",
+    "Application.MyComparator.executor": "Run",
+    "Application.PKComparator.executor": "Run",
+    "Application.PKCopyOnWriteArrayList.executor": "Run",
+    "Application.PKHashMap.executor": "Run",
+    "Application.PKLinkedHashMap.executor": "Run",
+    "Application.PKLinkedList.executor": "Run",
+    "Application.PKStack.executor": "Run",
+    "Application.PKVector.executor": "Run",
+    "Application.PKWeakHashMap (1).executor": "Run",
+    "Application.PKWeakHashMap.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Priyadarshi_Kumar/IdeaProjects - Copy/JavaCollectionFramework/src/structures/data",
+    "onboarding.tips.debug.path": "C:/Users/Priyadarshi_Kumar/IdeaProjects/JavaCollectionFramework/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Priyadarshi_Kumar\IdeaProjects - Copy\JavaCollectionFramework\src\structures\data" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PKWeakHashMap (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JavaCollectionFramework" />
@@ -87,8 +90,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PKWeakHashMap (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structures.data.PKWeakHashMap" />
+      <module name="JavaCollectionFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structures.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PKWeakHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structures.data.PKWeakHashMap" />
+      <module name="JavaCollectionFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structures.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PKWeakHashMap (1)" />
+        <item itemvalue="Application.PKWeakHashMap" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -237,7 +268,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757524286496</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update workspace.xml">
+      <option name="closed" value="true" />
+      <created>1757525577264</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1757525577265</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update workspace.xml">
+      <option name="closed" value="true" />
+      <created>1757525696248</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1757525696248</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
